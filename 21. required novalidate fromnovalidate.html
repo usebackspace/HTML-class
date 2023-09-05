@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>required</h1>
+    <form action="" >
+        First Name: <input type="text" name="fname" required><br><br>
+        Last Name: <input type="text" name="lname"><br><br>
+        city: <input type="text" name="city" ><br><br>
+        <input type="submit">
+        </form>
+<br><br><br><hr>
+
+
+<h1>novalidate</h1>
+<form action="" novalidate>
+    First Name: <input type="text" name="fname" required><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    city: <input type="text" name="city" ><br><br>
+    <input type="submit">
+    </form>
+<br><br><br><hr>
+
+
+
+<h1>formnovalidate</h1>
+<form action="" >
+    First Name: <input type="text" name="fname" required><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    city: <input type="text" name="city" ><br><br>
+    <input type="submit">
+    <input type="submit" value="Save" formnovalidate>
+    </form>
+<br><br><br><hr>
+
+
+<h1>formaction</h1>
+<form action="6. preTag.html" >
+    First Name: <input type="text" name="fname" ><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    city: <input type="text" name="city" ><br><br>
+    <input type="submit">
+    <input type="submit" value="submit 2" formaction="4. blockquote and q tag.html">
+    </form>
+<br><br><br><hr>
+
+
+<h1>formenctype</h1>
+<form action="" enctype="application/x-www-form-urlencoded" >
+    First Name: <input type="text" name="fname" required><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    city: <input type="text" name="city" ><br><br>
+    <input type="file" ><br><br>
+    <input type="submit">
+    <input type="submit" value="enc-submit" formenctype="multipart/form-data">
+    </form>
+<br><br><br><hr>
+
+
+<h1>formmethod</h1>
+<form action="" method="GET">
+    First Name: <input type="text" name="fname"s><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    city: <input type="text" name="city" ><br><br>
+    <input type="submit">
+    <input type="submit" value="post-submit" formmethod="POST">
+    </form>
+<br><br><br><hr>
+
+
+<h1>formtarget</h1>
+<form action="6. preTag.html" target="_blank" >
+    First Name: <input type="text" name="fname" ><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    city: <input type="text" name="city" ><br><br>
+    <input type="submit">
+    <input type="submit" value="target_self_submit" formtarget="_self">
+    </form>
+<br><br><br>
+
+    </form>
+<br><br><br>
+</body>
+</html>
